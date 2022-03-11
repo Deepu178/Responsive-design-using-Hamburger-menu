@@ -1,0 +1,313 @@
+body{
+    background-color: black;
+
+}
+
+
+
+#logo{
+    color: white;
+    width: 170px;
+    height: 35px;
+    position: absolute;
+    left: 85px;
+    top: 25px;
+    padding:6px 10px 10px 20px ;
+    border-color: white;
+}
+
+@media screen and(max-width:858px) {
+    #logo{
+        color: white;
+        width: 170px;
+        height: 35px;
+        position: relative;
+        right: 20px;
+        
+        top: 25px;
+        padding:6px 10px 10px 20px ;
+        border-color: white;
+    }
+}
+
+
+
+
+
+a:link {
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+#left-main-content{
+    color: white;
+}
+
+@media screen and (max-width:858px){
+    #left-main-content{
+        color: white;
+        position: relative;
+        bottom: 250px;
+       
+    }
+}
+
+@media(max-width:858px){
+    #footer{
+        color: white;
+        position: relative;
+        float: left;
+        right: 707px;
+        top: 300px;
+    }
+}
+
+
+#modern{
+    font-family: 'Lora', sans-serif;
+    position: absolute;
+    left: 77px;
+    top: 381px;
+    font-size: 48px;
+    font-weight: 500;
+    width: 365px;
+    height: 20px;
+    font-style: normal;
+}
+
+#para{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    left: 77px;
+    top: 440px;
+    font-style: normal;
+    width: 350px;
+    height: 145px;
+    font-size: 24px;
+}
+
+
+#a-5{
+    color: white;
+    position: absolute;
+    left: 77px;
+    top: 675px;
+    width: 103px;
+    height: 26px;
+    font-family: 'Monserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: 500;}
+
+    #img{
+        width: 700px;
+        height: 500px;
+        position: absolute;
+        left: 650px;
+        top: 200px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+         margin: 10px;
+         z-index:1001;
+    }
+
+    #img-div{
+        background-color: black;
+        z-index:1000;
+    }
+
+
+    #profile{
+        background-color: black;
+        color: white;
+        height: 189px;
+        width: 410px;
+        position: absolute;
+        left: 921px;
+        top: 650px;
+        z-index:1002;
+        border-color: white;
+    }
+
+    #img-2{
+        margin: 10px 0px 0px 20px;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+    }
+
+    #name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    width: 95px;
+    position: relative;
+    left: 20px;
+    top: -30px;
+    }
+
+    #profession{
+        position: relative;
+        left: 100px;
+        top: -20px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+
+    #about{
+        position: relative;
+        left: 30px;
+        width: 287px;
+        font-family: 'Lora', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        font-style: normal;
+    }
+
+
+    @media screen and (max-width:600px){
+        .nav{
+            position: absolute;
+            left: 50%;
+            background-color: black;
+            color: white;
+        }
+    }
+
+    @media screen and (max-width:600px) {
+        #a-1, #a-2, #a-3, #a-4 {
+        color: white;
+    position: absolute;
+    left: 10%;
+    float: left;
+    top: 10px;
+    width: 103px;
+    height: 26px;
+    font-family: 'Monserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: 500;
+        }
+        
+    }
+    
+    *{
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+    }
+    
+    body{
+        font-family: 'Montserrat', sans-serif;
+        background-color: black;
+    }
+    
+    nav{
+        background-color: black;
+        height: 80px;
+        width: 100%;
+    }
+    
+    label.logo{
+        color: white;
+        font-size: 35px;
+        line-height: 80px;
+        padding: 0 100px;
+        font-weight: bold;
+    }
+    
+    nav ul{
+        float: right;
+        margin-right: 20px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+    }
+    
+    nav ul li a{
+        color: white;
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+    
+    a.active, a:hover{
+        background-color: rgb(64, 3, 92);
+        transition: 0.1s;
+    }
+    
+    .checkbtn{
+        font-size: 30px;
+        color: rgb(253, 250, 250);
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    
+    #check{
+        display: none;
+    }
+    
+    @media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    }
+    
+    @media(max-width:858px){
+        .checkbtn{
+            display: block;
+        } ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(7, 7, 7);
+            top: 80px;
+            left: -100%;
+            text-align: center;
+            transition: all 0.1s;
+        }
+    
+        
+            nav ul li{
+                display: block;
+                margin: 50px 0;
+                line-height: 30px;
+            }
+        nav ul li a{
+            font-size: 20px;
+        }
+       a.active, a:hover{
+            background: none;
+            color: white;
+        }
+        #check:checked ~ ul{
+            left: 0;
+        }
+    
+    
+    }
